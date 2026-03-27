@@ -13,21 +13,12 @@ Please complete the steps below ahead of your interview.
 - Download from: https://dotnet.microsoft.com/en-us/download/dotnet/9.0
 - Install the **.NET 9.0 SDK** (not just the runtime)
 
-## Step 2 — Install an IDE or Code Editor
+## Step 2 — Install Visual Studio Code
 
-Pick whichever you are most comfortable with:
-
-**Visual Studio 2022** (recommended for Windows)
-- Community edition is free: https://visualstudio.microsoft.com/vs/community/
-- During installation, select the **.NET desktop development** workload
-
-**Visual Studio Code**
 - Download from: https://code.visualstudio.com/
 - Install the **C# Dev Kit** extension (by Microsoft) from the Extensions marketplace
 
-**JetBrains Rider**
-- Download from: https://www.jetbrains.com/rider/
-- Free 30-day trial available
+Feel free to use a different IDE if you prefer, as long as it supports .NET development.
 
 ## Step 3 — Verify Your Setup
 
