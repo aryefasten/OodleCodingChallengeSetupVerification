@@ -20,7 +20,7 @@ Please complete the steps below ahead of your interview.
 
 Feel free to use a different IDE if you prefer, as long as it supports .NET development.
 
-## Step 3 — Verify Your Setup
+## Step 3 — Run the Tests
 
 Clone this repository, open a terminal in the folder, and run:
 
@@ -34,7 +34,37 @@ You should see:
 Passed!  - Failed: 0, Passed: 4, Skipped: 0, Total: 4
 ```
 
-If all 4 tests pass, you are all set. See you at the interview!
+## Step 4 — Run the Console App
+
+In the same terminal, run:
+
+```
+dotnet run --project SetupVerification.csproj
+```
+
+You should see output like:
+
+```
+1 squared = 1
+2 squared = 4
+3 squared = 9
+4 squared = 16
+5 squared = 25
+Setup verification complete!
+```
+
+## Step 5 — Debug with Breakpoints
+
+Confirm that you can set a breakpoint and step through code in your IDE:
+
+1. Open the project folder in VS Code
+2. Open [SetupVerificationTest.cs](SetupVerificationTest.cs)
+3. Click in the gutter to the left of the `var squared = number * number;` line to set a breakpoint (a red dot should appear)
+4. Press **F5** to start debugging — VS Code may ask you to select a debugger, choose **.NET 5+ and .NET Core**
+5. The program should pause at your breakpoint, letting you inspect the `number` variable in the side panel
+6. Press **F5** again to continue, or **F10** to step line by line
+
+If the breakpoint hits and you can see the variable values, your setup is complete. See you at the interview!
 
 ---
 

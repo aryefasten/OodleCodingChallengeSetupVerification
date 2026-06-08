@@ -3,6 +3,22 @@ using Moq;
 
 namespace SetupVerification;
 
+class Program
+{
+    static void Main(string[] args)
+    {
+        var numbers = new[] { 1, 2, 3, 4, 5 };
+
+        foreach (var number in numbers)
+        {
+            var squared = number * number;
+            Console.WriteLine($"{number} squared = {squared}");
+        }
+
+        Console.WriteLine("Setup verification complete!");
+    }
+}
+
 public interface IGreeter
 {
     string Greet(string name);
